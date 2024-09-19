@@ -1,0 +1,162 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the start (left) */
+    align-items: center;
+    height: 100vh;
+}
+
+/* Background image styling */
+.background-image {
+    background: url('https://www.aicte-india.org/sites/default/files/default_images/inner_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the left */
+    align-items: center;
+}
+
+/* Login Form */
+.login-form {
+    background-color: rgba(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-right: 20px; /* Adds some space from the left */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Captcha Container */
+.captcha-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Captcha */
+.captcha {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    text-align: center;
+}
+
+/* Refresh Captcha Button */
+.refresh-captcha {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.refresh-captcha:hover {
+    background-color: #555;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Register Button */
+.register-btn {
+    background-color: #28a745;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-btn:hover {
+    background-color: #218838;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .login-form {
+        width: 100%;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .captcha-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .captcha {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,105 @@
+/* Top Bar */
+.top-bar {
+    background-color: #003450;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .top-bar-right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .top-bar-right a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .top-bar-right button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 2px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .top-bar-right button:hover {
+    background-color: white;
+    color: #003450;
+  }
+  
+  .login-btn {
+    background-color: orange;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-btn:hover {
+    background-color: darkorange;
+  }
+  
+  /* Logo and Title Section */
+  .logo-title-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .logo img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .title h1 {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #ff6600;
+    font-size: small;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    background-color: #ff4500;
+  }
+  
